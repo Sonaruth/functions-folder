@@ -1,0 +1,40 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2rem;
+    background-image: url(./images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    box-shadow: 0 0 24px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+}
+.input{
+    width: 100px;
+    gap: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input input{
+    padding: .5rem;
+} 
+.input button{
+    background-color: lightgray;
+
+}
+.input button:hover{
+    background-color: white;
+}
+.timer{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; */
+}
